@@ -95,7 +95,7 @@ class RLAlgorithm(Algorithm):
                 self._evaluate(epoch)
 
                 params = self.get_snapshot(epoch)
-                logger.save_itr_params(epoch, params)
+                logger.save_itr_params(epoch * self._epoch_length, params)
                 times_itrs = gt.get_times().stamps.itrs
 
                 eval_time = times_itrs['eval'][-1] if epoch > 1 else 0
