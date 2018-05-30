@@ -143,7 +143,7 @@ ALGORITHM_PARAMS_BASE = {
         'epoch_length': 1000,
         'n_train_repeat': 4,
         'eval_render': False,
-        'eval_n_episodes': 1,
+        'eval_n_episodes': 10,
         'eval_deterministic': True,
     }
 }
