@@ -47,7 +47,7 @@ ENVIRONMENTS = {
         'default': lambda: normalize(GymEnv('Hopper-v1'))
     },
     'half-cheetah': {
-        'default': lambda: normalize(GymEnv('HalfCheetah-v1'))
+        'default': lambda: normalize(GymEnv('HalfCheetah-v2'))
     },
     'walker': {
         'default': lambda: normalize(GymEnv('Walker2d-v1'))
